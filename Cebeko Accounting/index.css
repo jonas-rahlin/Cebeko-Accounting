@@ -1,0 +1,316 @@
+html{
+    scroll-behavior: smooth
+}
+/* NAVBAR */
+#logo{
+    margin-right:20px;
+    height:100%;
+}
+
+#h1{
+    font-family: 'Merriweather', serif;
+}
+.navbar {
+    border-bottom:black solid 1px;
+    margin-bottom: 0px;
+    box-shadow: black 1px 1px 4px;
+    min-height:75px;
+    padding-top:0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:black;
+    margin-top:20px;
+    color:rgb(32, 32, 32);
+    
+}
+
+.fa-phone{
+    font-size:1rem;
+    color:rgb(32, 32, 32);
+    
+   }
+
+#phone{
+    padding-top:10px;
+}
+
+#login{
+    color:#0082c9;
+    padding-left:0;
+}
+
+/* Jumbo */
+
+.jumbotron{
+    background-image: url(./showcase.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-shadow: black 1px 1px 4px;
+    height:50vh;
+}
+
+.jumbotron p{
+    color:rgb(240, 240, 240);
+    font-family: helvetica;
+}
+
+.btn-success{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: black 1px 1px 4px;
+    border:white solid 1px;
+    color:white;
+    }
+    
+.btn-success:hover{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: black 1px 1px 4px;
+    border:white solid 1px;
+    }
+
+
+
+
+
+/* Tjänster */
+#tjänster{
+    background:white;    
+}
+
+#tjänster h1{
+    font-family: 'Merriweather', serif;
+    
+}
+#tjänster h5{
+    font-family: 'Merriweather', serif;
+}
+
+#tjänster .card{
+    border:none;
+    background:none;
+}
+
+.card hr{
+    border: 0;
+    height: 1px;
+    opacity:30%;
+    background-image: linear-gradient(to right, rgba(212, 212, 212), rgba(182, 182, 182), rgba(212, 212, 212));
+}
+
+p{
+    color:rgb(32, 32, 32);
+    font-family: helvetica;
+}
+
+#tjänster .card i{
+    font-size:2rem;
+    padding-bottom:15px;
+    color:#8cc2e6;
+}
+
+
+
+/* Om oss*/
+#om{
+    color:black;
+    background:#f5f5dc;
+    border:rgba(0, 0, 0, 0.055) solid 1px;
+
+}
+
+#om h1{
+    font-family: 'Merriweather', serif;
+}
+
+#om p{
+    font-family: helvetica;
+    color:rgb(32, 32, 32)
+}
+
+#om img{
+    border-radius:15px;
+}
+
+.carousel-item h5{
+    color:white;
+    font-family: 'Merriweather', serif;
+    text-shadow: black 1px 1px 4px; 
+}
+
+.carousel-item #tel{
+    color:white;
+    font-weight:500;
+    text-shadow: black 1px 1px 4px;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: black 1px 1px 4px;
+    background-color:#0082c9;
+    border:white solid 1px;
+    color:white;
+    font-family:helvetica;
+    }
+    
+.btn-primary:hover{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: black 1px 1px 4px;
+    background-color:#0082c9;
+    border:white solid 1px;
+    }
+
+/* Kontakt */
+#kontakt{
+    color:black;
+    background:white;
+}
+
+#kontakt h1{
+    font-family: 'Merriweather', serif;
+}
+
+#kontakt h5{
+    font-family: 'Merriweather', serif;
+}
+
+#kontakt p{
+    font-family: helvetica;
+}
+
+#contact-form{
+    padding:20px;
+    border-radius:15px;
+    background:whitesmoke;
+    font-family: Helvetica;
+    color:black;
+}
+
+.btn-secondary{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: black 1px 1px 4px;
+    background-color:rgb(32, 32, 32);
+    border:white solid 1px;
+    color:white;
+    font-family:helvetica;
+    }
+    
+.btn-secondary:hover{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: black 1px 1px 4px;
+    background-color:rgb(32, 32, 32);
+    border:white solid 1px;
+    }
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    border-radius:15px;
+}
+
+#hr-kontakt{
+    border: 0;
+    height: 1px;
+    opacity:30%;
+    width:90%;
+    background-image: linear-gradient(to right, rgba(212, 212, 212), rgba(182, 182, 182), rgba(212, 212, 212));
+}
+
+/* Kontakt 2 */
+#kontakt{
+    color:black;
+    background:white;
+}
+
+#kontakt h1{
+    font-family: 'Merriweather', serif;
+}
+
+#kontakt h5{
+    font-family: 'Merriweather', serif;
+}
+
+#kontakt p{
+    font-family: helvetica;
+    color:rgb(32, 32, 32);
+}
+
+#kontakt2 p{
+    color:rgb(32, 32, 32);
+}
+
+#rex{
+    max-width:110px;
+    max-height:110px;
+}
+
+#srf{
+    max-width:120px;
+    max-height:120px;
+}
+
+/* GDPR */
+.modal-title{
+    font-family: 'Merriweather', serif;
+}
+
+.modal-body h5{
+    font-family: 'Merriweather', serif;
+}
+
+.modal-body{
+    color:rgb(32, 32, 32);
+}
+
+
+@media screen and (max-width: 545px) {
+    .jumbotron h1{
+        font-size: 2.2rem;
+        
+    }
+
+    .jumbotron p{
+        display:none;
+    }
+
+    #tjänster h1{
+        font-size: 1.8rem;
+    }
+
+    #om h1{
+        font-size: 1.8rem;
+    }
+
+    #kontakt h1{
+        font-size: 1.8rem;
+    }
+  }
+
+  @media screen and (max-width: 359px) {
+    .jumbotron{
+          
+      }
+    
+    #jumbo-cont{
+        display:none;
+      }
+    }
+
+
+
+
