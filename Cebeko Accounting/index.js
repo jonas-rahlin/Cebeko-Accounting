@@ -21,9 +21,14 @@ function srfInteract() {
 // eventlistener that triggers above function when clicking on srfBTN("srf-arrow").
 srfBtn.addEventListener("click", () => srfInteract());
 
-
+//shows and hides newsflow on scroll.
 window.onscroll = function() {
-    if ( window.pageYOffset > 0 ) {
+    if ( window.pageYOffset > 0) {
         srfNewsflow.classList.remove("no-display");
+        console.log("hope");
+    }
+ 
+    else {
+        srfNewsflow.classList.add("no-display");
     }
 }

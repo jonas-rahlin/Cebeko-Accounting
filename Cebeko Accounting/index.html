@@ -89,6 +89,7 @@
           </div>
         </div>
       </section>
+      <span id="scroll-trigger"></span>
       <section id="om" class="container-fluid d-flex flex-column align-items-center">
         <div id="omrow" class="row d-flex justify-content-center w-75 mt-5 mb-5">
           <div class="col-xl-6 d-flex flex-column align-items-center justify-content-center mb-3 lg-mb-0">
@@ -180,18 +181,18 @@
             <div class="container mt-3">
               <div class="row">
                   <div class="col-md-12 mb-md-0 mb-5">
-                      <form id="contact-form" name="contact-form" action="placeholder" method="POST">
+                      <form id="contact-form" onSubmit="return checkForm()" name="contact-form" action="placeholder" method="POST">
                           <div class="row">
                               <div class="col-md-6">
                                   <div class="md-form mb-0">
                                     <label for="name" class="">Namn</label>
-                                      <input type="text" id="name" name="name" class="mb-4 form-control">
+                                      <input type="text" id="name" name="name" class="mb-4 form-control" required>
                                   </div>
                               </div>
                               <div class="col-md-6">
                                   <div class="md-form mb-0">
                                     <label for="email" class="">E-post</label>
-                                      <input type="text" id="email" name="email" class="mb-4 form-control">
+                                      <input type="email" id="email" name="email" class="mb-4 form-control" required>
                                   </div>
                               </div>
                           </div>
@@ -199,7 +200,7 @@
                               <div class="col-md-12">
                                   <div class="md-form mb-0">
                                     <label for="subject" class="">Ämne</label>
-                                      <input type="text" id="subject" name="subject" class="mb-4 form-control">
+                                      <input type="text" id="subject" name="subject" class="mb-4 form-control" required>
                                   </div>
                               </div>
                           </div>
@@ -207,12 +208,12 @@
                               <div class="col-md-12">
                                   <div class="md-form">
                                     <label for="message">Meddelande</label>
-                                      <textarea type="text" id="message" name="message" rows="2" class="mb-4 form-control md-textarea"></textarea>
+                                      <textarea type="text" id="message" name="message" rows="2" class="mb-4 form-control md-textarea" required></textarea>
                                   </div>
                               </div>
                           </div>
                           <div class="text-center text-md-left">
-                            <a class="btn btn-secondary">Skicka</a>
+                            <input type="submit" class="btn btn-secondary">
                         </div>  
                       </form>
 
@@ -299,7 +300,7 @@
       </div>
     </aside>
     <aside>
-      <div class="srf-show no-display" id="srf-newsflow"><i id="srf-arrow" class="fas fa-angle-left"></i><iframe src="https://www.srfkonsult.se/newswire-ram/?bredd=180&antal=4" name="iframe" width="200" marginwidth="10" height="500" marginheight="10" scrolling="none" border="0" clip="no" vspace="0" hspace="0" frameborder="0"></iframe></div>
+      <div class="srf-show no-display" id="srf-newsflow"><i id="srf-arrow" class="fas fa-angle-left"></i><iframe src="https://www.srfkonsult.se/newswire-ram/?bredd=180&antal=4" name="iframe" width="200" marginwidth="10" height="550" marginheight="10" scrolling="none" border="0" clip="no" vspace="0" hspace="0" frameborder="0"></iframe></div>
     </aside>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
