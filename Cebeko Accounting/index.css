@@ -70,10 +70,6 @@ html{
     border:white solid 1px;
     }
 
-
-
-
-
 /* Tjänster */
 #tjänster{
     background:white;    
@@ -352,14 +348,13 @@ p{
     #kontakt h1{
         font-size: 1.8rem;
     }
-  }
 
+    #srf-newsflow{
+        
+    }
   
 
   @media screen and (max-width: 359px) {
-    .jumbotron{
-          
-      }
     
     #jumbo-cont{
         display:none;

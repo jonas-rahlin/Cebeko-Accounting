@@ -23,12 +23,12 @@ srfBtn.addEventListener("click", () => srfInteract());
 
 //shows and hides newsflow on scroll.
 window.onscroll = function() {
-    if ( window.pageYOffset > 0) {
+    if (window.pageYOffset > 1 && srfNewsflow.classList.contains("no-display")) {
         srfNewsflow.classList.remove("no-display");
-        console.log("hope");
+        srfNewsflow.classList.remove("srf-hide");
     }
- 
-    else {
+
+    else if (window.pageYOffset < 1) {
         srfNewsflow.classList.add("no-display");
     }
 }
