@@ -276,7 +276,7 @@ p{
   /* SRF NEWS FLOW */
 #srf-newsflow{
     position:fixed;
-    top:150px;
+    top:105px;
     display:flex;
     align-items:center;
     -webkit-animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
